@@ -1,1 +1,71 @@
-/* место для вашего кода */
+.header {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    align-items: center;
+    padding: 92px 24px 96px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #000;
+}
+
+.header__menu-item_active .header__menu-link {
+    text-decoration: none;
+  }
+
+.header__logo {
+    display: grid;
+    width: 148px;
+}
+
+.header__logo_image {
+    height: 105px;
+}
+
+.header__menu_list {
+    padding: 24px;
+    width: 454px;
+    list-style: none;
+    display: grid;
+    grid-template-columns: 67px 2fr 3fr;
+    gap: 13px;
+    align-items: center;
+}
+
+.header__menu-link {
+    width: 169px;
+    display: grid;
+    grid-template-columns: 7px 2fr;
+    align-items: center;
+    gap: 12px;
+}  
+
+.list_marker {
+    display: block;
+    width: 7px;
+}
+
+.contact {
+    display: grid;
+    width: 241px;
+    height: 98px;
+}
+
+.phone {
+    border-bottom: 1px solid #000;
+    width: 135px;
+    height: 24px;
+    line-height: 24.3px; /* 135% */
+    letter-spacing: 0.18px;
+}
+
+.mail {
+    border-bottom: 1px solid #000;
+    width: 135px;
+    height: 24px;
+    line-height: 24.3px; /* 135% */
+    letter-spacing: 0.18px;
+}
+
+.address {
+    line-height: 24.3px; 
+}
