@@ -171,6 +171,7 @@
 }
 
 .card-link {
+  z-index: 1;
   text-decoration: none;
 }
 
@@ -197,7 +198,6 @@
 }
 
 .card {
-  z-index: 1;
   max-width: 334px;
   max-height: 563px;
   padding: 52px 40px;
