@@ -51,7 +51,7 @@
   font-style: normal;
 }
 
-.header__address {
+.address-link {
   width: 135px;
   display: flex;
   flex-direction: row;
@@ -283,14 +283,6 @@
   flex-direction: row;
   list-style: none;
   justify-content: space-between;
-}
-
-.footer__address {
-  width: 135px;
-  display: flex;
-  flex-direction: row;
-  text-decoration: none;
-  border-bottom: 1px solid #000;
 }
 
 .footer__menu {
